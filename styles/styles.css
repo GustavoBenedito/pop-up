@@ -102,7 +102,7 @@ main .find-dev:hover{
 .pop-up{
     background:rgb(212, 212, 212);
     width:45%;
-    min-width:350px;
+    min-width:330px;
     padding:1em;
     position:relative;
     animation: pop-up 0.5s;
@@ -195,6 +195,9 @@ input{
 @media(max-width:900px){
     main .text{
         top:5%;
+    }
+    main .button{
+        top:70%;
     }
 
     .name-email{
