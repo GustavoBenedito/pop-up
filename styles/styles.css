@@ -196,8 +196,9 @@ input{
     main .text{
         top:5%;
     }
-    main .button{
+    main .find-dev{
         top:70%;
+        margin-top:5em;
     }
 
     .name-email{
