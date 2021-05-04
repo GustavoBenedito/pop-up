@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>pop up</title>
+</head>
+<body>
+    <main>
+        <div class="img-wrapper">
+            <img src="img/background.jpg" alt="">
+        </div>
+        <div class="text">
+            <h1>Encontre um Desenvolvedor</h1>
+            <h3>São mais de 5 mil profissionais qualificados no Brasil inteiro!</h3>
+
+            <p>Solicite e receba propostas de Desenvolvedores certificados em minutos! </p>
+        </div>
+        <button class="find-dev"> Encontre um Dev </button>
+
+        <div id="popup"class="pop-up-container">
+            <div class="pop-up">
+            <button class="close">X</button>
+            <div class="suport-text">
+                <p>Receba suporte</p>
+            </div>
+            <p>Preencha os campos com seu nome e e-mail para que possamos entrar em contato:</p>
+            <form>
+                <div class="name-email">
+                    <div>
+                    <p>Nome:</p>
+                    <input type="text">
+                    </div>
+                    <div>
+                    <p>Email:</p>
+                    <input  type="email">
+                    </div>
+                </div>
+                <input type="button" class="button" value="enviar">
+                <p class="stop-popup">clique aqui para <strong>não</strong> ver este formulario novamente<p>
+            </form>
+            </div>
+        </div>
+    </main>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
